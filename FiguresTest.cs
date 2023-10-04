@@ -19,12 +19,12 @@ public class FigureTest
         Assert.AreEqual(area, 6, "Incorrect triangle area");
     }
 
-        [TestMethod]
+    [TestMethod]
     public void Triangle_IsRight_Valid() // Тест на прямоугольность
     {
 
         Triangle triangle = new(3, 4, 5);
-        Triangle triangle2 = new(3, 7, 2);
+        Triangle triangle2 = new(3, 7, 5);
 
 
         double area = triangle.Area();
